@@ -1,0 +1,7 @@
+name: Github Action Test
+on: [push]
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "xd memes"
