@@ -15,4 +15,5 @@ jobs:
           push: false
           load: true
           tags: user/app:latest
-
+      - name: Run container
+        run: docker run -d --name myapp user/app:latest 
