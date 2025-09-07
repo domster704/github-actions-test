@@ -13,5 +13,6 @@ jobs:
         with:
           file: Dockerfile
           push: false
+          load: true
           tags: user/app:latest
-          
+
